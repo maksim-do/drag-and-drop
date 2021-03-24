@@ -1,0 +1,51 @@
+.block {
+  width: 100%;
+  touch-action: none;
+
+  &__homebody {
+    width: 100px;
+    height: 100px;
+    position: static;
+    background-color: #808080;
+  }
+
+  &__stroller {
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+    position: absolute;
+    background-color:#ffffff;
+  }
+
+    &__order {
+    height: 30vh;
+    border-radius: 12px;
+    background-color: #948b8b;
+    touch-action: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(common/block/order.png);
+    overflow: hidden;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+  }
+
+    &__create {
+    min-height: 30vh;
+    touch-action: auto;
+    background-image: url(common/block/create.png);
+    border: #151515 1px solid;
+    border-radius: 12px;
+    margin-bottom: 3vh;
+  }
+
+    &__hoop {
+    min-height: 30vh;
+    background-color: #eee4e4;
+    touch-action: auto;
+    position: relative;
+    background-image: url(common/block/hope.png);
+    overflow: hidden;
+    border-radius: 12px; 
+  }
+}
